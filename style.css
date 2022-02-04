@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    overflow: hidden;    
+    overflow: hidden;   
 }
 .sky{
     /* height: 50vh; */
@@ -35,7 +35,7 @@ body{
 
 }
 .car{
-    width: 300px;
+    width: 359px;
     height: 100px;
     background-image: url(car_body.png);
     background-size: cover;
@@ -60,8 +60,8 @@ body{
 .wheel1 img{
     width: 77px;
     position: relative;
-    top: 36px;
-    left: 34px;
+    top: 32.5px;
+    left: 35px;
     animation: wheelrotation linear 0.3s infinite;
 
 
@@ -71,7 +71,7 @@ body{
     width:77px;
     position: relative;
     top: -46px;
-    left: 215px;
+    left: 217px;
     animation: wheelrotation linear 0.3s infinite;
 }
 
