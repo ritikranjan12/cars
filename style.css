@@ -4,7 +4,6 @@
 }
 body{
     overflow: hidden;   
-    overflow-x: hidden; 
 }
 .sky{
     height: 50vh;
