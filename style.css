@@ -6,7 +6,7 @@ body{
     overflow: hidden;   
 }
 .sky{
-    height: 50vh;
+    /* height: 50vh; */
     height: 100vh;
     width: 100%;
     background-image: url(back.jpg);
