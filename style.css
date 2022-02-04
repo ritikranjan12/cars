@@ -3,10 +3,11 @@
     padding: 0;
 }
 body{
-    overflow: hidden;    
+    overflow: hidden;   
+    overflow-x: hidden; 
 }
 .sky{
-    /* height: 50vh; */
+    height: 50vh;
     height: 100vh;
     width: 100%;
     background-image: url(back.jpg);
@@ -28,7 +29,7 @@ body{
     width: 200vw;
     background-image: url(track.png);
     position: absolute;
-    /* background-size: cover; */
+    background-size: cover;
     top: 70vh;
     background-repeat: repeat-x;
     animation: carmove linear 0.6s infinite;
@@ -43,7 +44,7 @@ body{
     position: absolute;
     left: 0vw;
     bottom: 30vh;
-    /* animation: carshake linear 0.4s infinite, car linear 5s infinite; */
+    animation: carshake linear 0.4s infinite, car linear 5s infinite;
 }
 
 @keyframes car {
